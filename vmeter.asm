@@ -1,9 +1,9 @@
 ;
 ;	PIC12F675 LED Voltmeter
 ;
-;	Apr., 29, 2005 tya_kun@excite.co.jp
+;	Apr., 29, 2005 ChuckTimber
 ;
-;	$Id: vmeter.asm,v 1.2 2005/11/24 02:53:11 stak Exp $
+;	$Id: vmeter.asm,v 1.2 2005/11/24 02:53:11 ChuckTimber Exp $
 
 list		p=12f675		; list directive to define processor
 #include	<p12f675.inc>	; processor specific variable definitions
@@ -246,7 +246,7 @@ REGION_END
 	END
 ;
 ; $Log: vmeter.asm,v $
-; Revision 1.2  2005/11/24 02:53:11  stak
+; Revision 1.2  2005/11/24 02:53:11  ChuckTimber
 ; Added CVS directives.
 ;
 ;
